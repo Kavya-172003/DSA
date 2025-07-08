@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class VowelChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a letter to check if it's a vowel or not:");
+        System.out.println("Enter a letter to check vowel or not:");
         String str = sc.nextLine().toLowerCase();
         if (str.length() == 1) {
             switch(str) {
